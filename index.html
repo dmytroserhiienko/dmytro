@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaitTV</title>
+    <style>
+        aside {
+         background: #f0f0f0;
+         padding: 10px;
+         width: 100px;
+         float: right;
+        }
+        .main_video {
+         text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> BaitTV </h1>
+        <img width="50px" src="data:image/jpeg;base64,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" alt="logo">
+        <form>
+            <p><input type="search" placeholder="Пошук по сайту"> 
+            <img src="search" width="10px" height="10px">
+            <input type="submit" value="Знайти"></p>
+            
+        </form>
+        <h3><a href="somelink">Фільми</a> <a href="somelink">Cеріали</a> <a href="somelink">Мультфільми</a></h3>
+        <hr>
+    </header><br>
+    <main>
+        <aside>
+            <b>Навігація</b> 
+            <ul>
+                <li><a href="#watch">Перегляд</a></li>
+                <li><a href="#comment">Відгуки</a></li>
+            </ul>
+        </aside>
+        <div class="main_video">
+            <h2 id="watch">Назва фільму</h2>
+            <video controls width="400" height="300"> <source src="somevideo" type=video/mpeg></video>
+        </div>
+        <div>
+            <h3>Опис</h3>
+            <h4>Скріншоти</h4>
+            <img width="50px" src=""alt="somepicture">
+            <img width="50px" src=""alt="somepicture">
+            <img width="50px" src=""alt="somepicture">
+            <table border="2">
+                <tr>
+                    <th><em>Жанр</em></th>
+                    <th><em>Рік</em></th>
+                </tr>
+                <tr>
+                    <td>Бойовик</td>
+                    <td>2020</td>
+                </tr>
+            </table>
+            <fieldset style="width:300px">
+                <ul>
+                    <li>Головні ролі
+                        <ul>
+                        <li>Джонні Деп</li>
+                        <li>Армі Гаммер  </li>
+                        </ul>
+                    </li>
+                        <li>Номінації
+                        <ul>
+                        <li>Оскар 2014</li>
+                        <li>Оскар 2015</li>
+                        </ul>
+                    </li>
+                </ul>
+            </fieldset>
+            <p><b>Поширити </b>
+            <select>
+                <option>Instagram</option>
+                <option>Telegram</option>
+                <option>Facebook</option>
+            </select></p>
+        </div>
+        <hr>
+        <div>
+            <h3 id="comment">Залишити відгук</h3>
+            <form>
+            <fieldset style="width:300px">
+                <legend> <b>Напишіть враження від фільму </b></legend>
+                <textarea style="width:250px"></textarea>
+                <p><label><input type="checkbox" name="sortament" value="1"> 
+                    <span>Сподобався фільм?</span></label></p>
+                <p><label><input type="checkbox" name="sortament" value="1"> 
+                    <span>Чекаєте на продовження?</span></label></p>
+                <p style="text-align: right"><button>Відправити</button>
+                <form action="handler.php">
+                    <p><b>Які враження від фільму?</b></p>
+                    <p><input type="radio">Гарні</p>
+                    <p><input type="radio">Нейтральні</p>
+                    <p><input type="radio">Погані</p>
+                    <p><input type="submit" value="Вибрати"></p>
+                </form>    
+            </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p><em>Контакнта інформація:</em></p>
+        <p><b>Телефон:</b> +3800000000</p>
+        <p><b>Електронна адреса:</b> dmytro@mail.ua</p>
+    </footer>
+</body>
+</html> 
